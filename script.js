@@ -24,9 +24,9 @@ window.addEventListener('load', function() {
                         <img class = 'avatar' src = ${json[i].picture}
                     </div>
                     `;
-                    if(json[i].active === true) {
-                        document.getElementById('active').style.color = 'green';
-                    }
+                    // if(json[i].active === true) {
+                    //     document.getElementById('active').style.color = 'green';
+                    // }
 
                     astronautCount += 1;
             }
